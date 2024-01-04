@@ -1,0 +1,51 @@
+@media screen and (max-width:800px) {
+  
+   .left{
+    font-size:20px;
+    
+   }
+   nav ul li a{
+    font-size: 12px;
+   } 
+   #home{
+         display:flex;
+         flex-direction: column-reverse;
+         font-size:25px;
+         width:100vw;
+   } 
+   .buttons{
+      display:flex;
+   } 
+   .leftsection{
+      width:100px;
+      font-size: 20px;  
+   }
+   .contact{
+      margin: 2px;
+   }
+   
+
+}
+li img{
+   height:26px;
+   width:26px;
+}
+@media (max-width:800px) {
+   .hideOnMobile{
+      display:none;
+   }
+   .skill-des{
+      font-size:smaller;
+   }
+   .h2{
+      font-size:smaller;
+   }
+}
+@media(max-width:700px) {
+   .sidebar{
+      width:100%
+   }
+   .menu-button{
+      display:block;
+   }
+}
