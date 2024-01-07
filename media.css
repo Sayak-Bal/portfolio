@@ -4,6 +4,9 @@
     font-size:20px;
     
    }
+   nav ul{
+      width:70%
+   }
    nav ul li a{
     font-size: 12px;
    } 
@@ -23,7 +26,9 @@
    .contact{
       margin: 2px;
    }
-   
+   .skillbox{
+      margin:10%;
+   }
 
 }
 li img{
