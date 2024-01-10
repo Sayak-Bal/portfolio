@@ -49,24 +49,40 @@
     <main>
                         <!------first section (HOME)---->
         <section class="firstSection" id="home">
-            <div class="leftSection">
+            <div class="leftSection ">
                <h2> Hi,My name is <span class="purple">Sayak Bal</span></h2>
 
                 <h3> I am passionate</h3>
                <h5 id="element"></h5>
                 <div class="buttons">
-                    <button class="btn"><a href="Resume.pdf">Download Resume</a></button>
-
-                    <button class="btn"><a></a>Hire me</a></button>
-                </div>
-                <div class="contact">
-                    <ul>
-                        <li><a class="con" href="https://github.com/Sayak-Bal"><img src="GitHub.webp" alt="facebook"></a></li>
-                        <li><a class="con" href="https://www.linkedin.com/in/sayak-bal-100818254"><img src="link.png" alt="facebook"></a></li>
-                        <li><a class="con" href="mailto:sayakbal005@gmail.com"><img src="gmail.webp" alt="facebook"></a></li>
-                        <li><a class="con" href="https://www.facebook.com/sayak.bal.121"><img src="facebook.png" alt="facebook"></a></li>
-                    </ul>
+                    <button class="btn reveal"><a href="Resume.pdf">Download Resume</a></button>
+                    <button class="btn reveal" onclick = "openpopup()">Hire me</button>
                     </div>
+                    <div class="contact">
+                        <ul>
+                            <li><a class="con" href="https://github.com/Sayak-Bal"><img src="GitHub.webp" alt="facebook"></a></li>
+                            <li><a class="con" href="https://www.linkedin.com/in/sayak-bal-100818254"><img src="link.png" alt="facebook"></a></li>
+                            <li><a class="con" href="mailto:sayakbal005@gmail.com"><img src="gmail.webp" alt="facebook"></a></li>
+                            <li><a class="con" href="https://www.facebook.com/sayak.bal.121"><img src="facebook.png" alt="facebook"></a></li>
+                        </ul>
+                        </div>
+                    <div class="hirepopup">
+                        <div class="fullname">
+                        <label for="fullname">FULL NAME</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="exmpl@Sayak Bal">
+                        </div>
+                        <div class="fullname">
+                            <label for="email">Email Id</label>
+                            <input type="email" id="email" name="email" placeholder="sayakbal005@gamil.com">
+                            </div>
+                            <div class="mess">
+                                <label for="email">message</label>
+                                <input type="text" id="mess" name="mess" placeholder="send me message">
+                                </div>
+                                <button type="submit" class="sendbtn">send</button>
+                                <button type="button" class="okbtn">ok</button>
+                            </div>
+    
             </div>
         
             <div class="rightSection"><img src="myp.png" alt=""></div>
@@ -85,27 +101,27 @@
             <h1>My skill</h1>
             
             <div class="skill-mainbox">   
-                <diV class="skillbox">
+                <diV class="skillbox reveal">
                     <div class="skill-logo"><img src="800px-HTML5_Badge.svg.png" alt =" html"></div>
                     <div class="skill-des">HTML<p></p></div>
                 </diV>
-                <diV class="skillbox">
+                <diV class="skillbox reveal">
                     <div class="skill-logo"><img src="css.png" alt =" html"></div>
                     <div class="skill-des">CSS<p></p></div>
                 </diV>
-                <diV class="skillbox">
+                <diV class="skillbox reveal">
                     <div class="skill-logo"><img src="j.png" alt =" html"></div>
                     <div class="skill-des">Javascript<p></p></div>
                 </diV>
-                <diV class="skillbox">
+                <diV class="skillbox reveal">
                     <div class="skill-logo"><img src="UI-UX.jpg" alt =" html"></div>
                     <div class="skill-des">UI/UX<p></p></div>
                 </diV>
-                <diV class="skillbox">
+                <diV class="skillbox reveal">
                     <div class="skill-logo"><img src="web.png" alt =" html"></div>
                     <div class="skill-des">WEB DEVELOPER<p></p></div>
                 </diV>
-                <diV class="skillbox">
+                <diV class="skillbox reveal">
                     <div class="skill-logo"><img src="p.png" alt =" html"></div>
                     <div class="skill-des">python<p></p></div>
                 </diV>
@@ -117,8 +133,8 @@
         <section class="thirdSection" id="about" >
             <h1>About Us</h1>
             <div class="about-mainbox" >
-                             <div class="about-img"><img src="a.png"></img></div>             
-                 <div class="about-des"><p> I am a second-year Computer Science and Engineering student 
+                             <div class="about-img reveal"><img src="a.png"></img></div>             
+                 <div class="about-des reveal"><p> I am a second-year Computer Science and Engineering student 
                     at the College of Engineering and Management, Kolaghat, with a passion for web development. 
                     Eager to apply my theoretical knowledge to practical scenarios, I'm proficient in HTML, CSS, 
                     and JavaScript, and constantly exploring new technologies. Through personal projects and coursework,
@@ -141,13 +157,13 @@
         <hr>
                     <!--fifth section (contact)-->
 
-        <section id="contact">
+        <section id="contact reveal">
             <h1>Contact me </h1>
             <div class="contactme">
              <ul>
                  <li><a class="co" href="https://github.com/Sayak-Bal"><img src="GitHub.webp" alt="facebook"></a></li>
                  <li><a class="co" href="https://www.linkedin.com/in/sayak-bal-100818254"><img src="link.png" alt="facebook"></a></li>
-          <li><a class="con" href="sayakbal005@gmail.com"><img src="gmail.webp" alt="facebook"></a></li>
+          <li><a class="con" href="mailto:sayakbal005@gmail.com"><img src="gmail.webp" alt="facebook"></a></li>
            <li><a class="co"href="https://www.facebook.com/sayak.bal.121"><img src="facebook.png" alt="facebook"></a></li>
            <li><a class="co"href="https://youtube.com/@oneclicktrip360"><img src="youtube.webp" alt="facebook"></a></li>
              </ul>
@@ -171,11 +187,11 @@
                             <!------footer---->
  </html>
     <footer>
-        <div class="footer-content">
+        <div class="footer-content reveal">
         <h2>Sayak Developer Portfolio</h2>
                     <div class="footer-text">
                         <h3></h3>
-                        <p></p>
+                        <p> Home | About us | Myskill | project |  contact</p>
                     </div>
         <h3>Follow us :</h3>
         <div class="contactme">

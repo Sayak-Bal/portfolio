@@ -1,4 +1,4 @@
-@media screen and (max-width:800px) {
+@media screen and (max-width:620px) {
   
    .left{
     font-size:20px;
@@ -26,16 +26,14 @@
    .contact{
       margin: 2px;
    }
+   
    .skillbox{
-      margin:10%;
+      width: 100%;
    }
-
-}
-li img{
-   height:26px;
-   width:26px;
-}
-@media (max-width:800px) {
+   .skill-mainbox{
+      flex-direction: column;
+      align-items: center;
+   }
    .hideOnMobile{
       display:none;
    }
@@ -46,11 +44,15 @@ li img{
       font-size:smaller;
    }
 }
-@media(max-width:700px) {
+@media(max-width:400px) {
    .sidebar{
       width:100%
    }
    .menu-button{
       display:block;
    }
+}
+li img{
+height:26px;
+width:26px;
 }
