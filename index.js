@@ -1,12 +1,19 @@
 
-function showsidebar(){
+let i = 0;
+
+function showsidebar() {
     const sidebar = document.querySelector('.sidebar');
-    sidebar.style.display = "flex";
+    
+    if (i % 2 === 0) {
+        sidebar.style.display = "none";
+    } else {
+        sidebar.style.display = "block";
+    }
+    
+    i++; // Increment i for the next toggle
 }
-function showhidebar(){
-    const hidebar =document.querySelector('.sidebar');
-    hidebar.style.display = "none";
-}
+
+    
 
 
 window.addEventListener('scroll', reveal);
